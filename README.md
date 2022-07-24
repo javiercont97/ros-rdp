@@ -28,3 +28,12 @@ Then connect to `localhost` and use default credentials to login. These credenti
 
 ![rdp-start](docs/assets/rdp-password.png)
 
+### Fixing terminal
+Run in a terminal inside RDP and run the following command. When prompted select `no` and press enter. Reopen that terminal and start using ROS
+```
+sudo dpkg-reconfigure dash
+```
+Remember to setup ROS by sourcing ROS setup
+```
+source /opt/ros/noetic/setup.bash
+```
