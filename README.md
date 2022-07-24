@@ -19,6 +19,7 @@ docker run -p 3389:3389 -it -d -v $(pwd)/workspaces:/home/noetic/Documents javie
 
 ### Connecting with RDP
 First open RDP Client app
+
 ![rdp-start](docs/assets/rdp-connect.png)
 
 Then connect to `localhost` and use default credentials to login. These credentials are username noetic and password noetic.
